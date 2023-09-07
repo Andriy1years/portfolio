@@ -1,0 +1,119 @@
+#touch {
+  position: fixed;
+
+  width: 50px;
+  top: 0;
+  right: 0;
+  margin-top: -150px;
+  margin-right: 110px;
+  translate: all 0.8s ease;
+
+}
+
+#lampochca {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 250px;
+  margin-right: -70px;
+}
+
+#touch_button {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  right: 0;
+  background-color: rgba(255, 18, 18, 0);
+  border: none;
+  padding-right: 27px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  margin-right: 120px;
+}
+
+#light1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 208, 0);
+  padding-top: 3px;
+  padding-right: 16px;
+  margin-top: 165px;
+  margin-right: 80px;
+  transform: rotate(40deg);
+}
+
+#light2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 208, 0);
+  padding-top: 3px;
+  padding-right: 16px;
+  margin-top: 200px;
+  margin-right: 97px;
+}
+
+#light3 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 208, 0);
+  padding-top: 3px;
+  padding-right: 16px;
+  margin-top: 235px;
+  margin-right: 83px;
+  transform: rotate(-40deg);
+}
+
+#light4 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 208, 0);
+  padding-top: 3px;
+  padding-right: 16px;
+  margin-top: 245px;
+  margin-right: 48px;
+  transform: rotate(90deg);
+}
+
+#light5 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 208, 0);
+  padding-top: 3px;
+  padding-right: 16px;
+  margin-top: 235px;
+  margin-right: 16px;
+  transform: rotate(50deg);
+}
+
+#light6 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 208, 0);
+  padding-top: 3px;
+  padding-right: 16px;
+  margin-top: 200px;
+  margin-right: -2px;
+}
+
+#light7 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 208, 0);
+  padding-top: 3px;
+  padding-right: 16px;
+  margin-top: 165px;
+  margin-right: 16px;
+  transform: rotate(-40deg);
+}
+
+.light {
+  display: none;
+}
