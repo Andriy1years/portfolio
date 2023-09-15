@@ -10,7 +10,7 @@ body = document.getElementById('body');
 
 let bolen = false;
 let touch_number = false;
-
+ 
 burger.onclick = function (event) {
     if (!bolen) {
 
